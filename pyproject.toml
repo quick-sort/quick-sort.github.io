@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "quick-sort-github-io"
+version = "0.1.0"
+description = "Pages for me"
+authors = ["Quicksort <quick-sort@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs-material = "^9.6.7"
+mkdocs-minify-plugin = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

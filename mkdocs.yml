@@ -1,0 +1,28 @@
+site_name: Quicksort Projects
+site_url: https://projects.quicksort.cn
+site_author: quicksort
+repo_name: quick-sort
+repo_url: https://github.com/quick-sort
+theme:
+  name: material
+  features:
+    - navigation.tabs
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/quick-sort
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/quicksortz
+plugins:
+  - blog
+  - search
+
+nav:
+  - Home: index.md
+  - Projects:
+    - projects/index.md
+  - Knowledge:
+    - knowledge/index.md
+  - Blog:
+    - blog/index.md
+
